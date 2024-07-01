@@ -1,0 +1,170 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1ed760;
+}
+
+nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  height: 969px;
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+}
+
+.headline {
+  font-size: 156px;
+  font-weight: 900;
+  line-height: 166px;
+  color: #1ed760;
+  position: relative;
+  left: 225px;
+  padding-bottom: 40px;
+}
+
+.headline-first {
+  position: relative;
+  left: -2.5em;
+}
+
+.sub-headline {
+  color: #1ed760;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.button-area {
+  text-align: center;
+}
+
+.button-style {
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  border: none;
+  color: #2941ab;
+  font-size: inherit;
+  font-weight: 700;
+
+}
+
+.button-style:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 1180px;
+  padding: 100px 0;
+}
+
+.footer-top {
+  display: flex;
+  height: 330px;
+}
+
+.info {
+  display: flex;
+  width: 60%;
+}
+
+.info>div {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+
+.info a {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.header {
+  color: #919496;
+  font-weight: 900;
+  padding: 20px 0px;
+}
+
+.sns {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sns>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.sns i {
+  font-size: 24px;
+}
+
+.footer1 {
+  text-align: right;
+  color: #919496;
+  font-size: 12px;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.footer2 a,
+span {
+  color: #919496;
+}
+
+.footer2 a {
+  margin-right: 25px;
+}
+
+.footer2 a:hover {
+  color: #1ed760;
+}
